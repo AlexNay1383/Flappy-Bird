@@ -52,12 +52,12 @@ function create() {
     pipe.push(temp2);
     pipe.push(temp3);
     pipe.push(temp4);
-    
+
     ground = Game.add.sprite(0, 750, "ground");
     ground.scale.setTo(2);
     Game.physics.enable(ground);
     ground.body.immovable = true;
-        
+
     Space = Game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 }
 
